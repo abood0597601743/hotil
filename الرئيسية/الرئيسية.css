@@ -1,0 +1,216 @@
+ @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Changa:wght@500&family=Lalezar&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+.a{
+    width: 100%;
+    height:750px;
+    background-image: linear-gradient(rgba(27, 39, 68, 0.1),rgba(244, 244, 229, 0.2));
+    position: relative;
+    padding:0 5% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 180px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+nav ul li a{
+    text-decoration:none ;
+    color: #fff; 
+    font-size: 14px;
+}
+.one{
+    text-align: center;
+}
+.one h1{
+    font-size:100px ;
+    color: #fff; 
+    font-weight: 600;
+}
+.one a{
+    text-decoration: none ;
+    display:inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index:-1 ;
+    width: 100%;
+}
+nav a:hover{
+    color: rgb(248, 236, 158);
+    border: 2px solid #fff;
+    padding: 14px 10px;
+    border-radius: 50px;
+    background-color: rgba(211, 225, 240, 0.2);
+}
+.one a:hover{
+    color: rgb(248, 236, 158);    
+}
+.one h2{
+    font-size:50px ;
+    color: #fff; 
+    font-weight: 600;
+}
+
+
+.features{
+    margin: 70px;
+}
+.features-section{
+    padding: 2rem 0;
+    background-color: #f8f7fc;
+}
+section.features .features-section{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.features-section h4 {
+    margin-top: 20px;
+    color: rgb(145, 2, 2);
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.features-section .qualities{
+    display: flex;    
+    justify-content: space-between; 
+    margin: 10px;                        
+}
+.features-section .qualities .quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.qualities .quality i {
+    font-size: 2rem;
+    color: rgb(145, 2, 2);
+    margin-bottom: 1rem;
+}
+.qualities .quality h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.qualities .quality p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #4e547e;
+}
+
+
+.city-section{
+    padding: 2rem 0;
+    background-color: #f8f7fc;
+}
+section.newst-city .city-section{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+}
+.city-section h4 {
+    margin-top: 20px;
+    color: rgb(145, 2, 2);
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.city-section .citys{
+    display: grid;    
+   grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin: 10px;                        
+}
+.city-section .citys .city{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.citys .city h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    padding-top: 10px;
+}
+.citys .city p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #4e547e;
+}
+.city img:hover{
+    scale: 1.1;
+}
+.city img{
+   width: 250px;
+   height: 320px;
+}
+
+
+footer{
+   background-color: #f8f7fc;
+   height: 20vh;
+   margin-top: 5rem;
+   padding: 2rem 0;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto ;
+    padding: 0 5rem;
+}
+.footer-section p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.footer-section .social{
+    margin-bottom: 1rem;
+}
+.footer-section .social i {
+    padding: 0 0.5rem;
+    font-size: 1.6rem;  
+}
+.footer-section .social i:hover{
+    color: rgb(145, 2, 2);
+}
